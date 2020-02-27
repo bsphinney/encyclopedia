@@ -7,7 +7,8 @@ library("seqinr")
 # protein.tsv output file
 setwd("E:\\Data\\encyclopedia")
 
-# read fasta used in the MSFragger search. Change this to the one you used. 
+# read fasta used inencyclopedia that was associated with the library you used  search. 
+#Change this to the one you used
 fasta <- read.fasta("UP000005640_9606_pluscrap.fasta", seqtype = "AA",as.string = TRUE, set.attributes = FALSE)
 
 # read fragpipe/msfragger protein results file
